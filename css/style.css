@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* generics */
+.container-body{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+/* header */
+.back-lightblue{
+    background-color: #acd8e6;
+    padding: 15px;
+}
+
+.back-blue{
+    background-color: #00008b;
+    padding: 30px;
+}
+
+.div-header{
+    background-color: #ed82ee;
+    min-height: 200px;
+    width: 500px;
+    border: 3px dashed;
+    }
+    
+.nav-header{
+    background-color: #daa521;
+    justify-content: space-between;
+    padding: 10px;
+    border: 3px dashed;
+}
+
+/* main */
+.back-white{
+    background-color: white;
+    padding: 15px;
+}
+
+.div-main-start{
+    min-height: 200px;
+    flex-direction: row-reverse;
+    border: 3px dashed;
+}
+
+.back-lightgray{
+    background-color: #d3d3d3;
+    padding: 15px;
+}
+.div-main-center{
+    min-height: 200px;
+    border: 3px dashed;
+}
+
+.div-main-end{
+    min-height: 600px;
+    border: 3px dashed;
+    background-color: greenyellow;
+}
+
+/* footer */
+
+.back-black{
+    background-color: black;
+    padding: 15px;
+    padding-top: 5px;
+}
+.top-footer{
+    min-height: 200px;
+    border: 3px dashed;
+    flex-wrap: nowrap;
+}
+
+.down-footer{
+    min-height: 100px;
+    border: 3px dashed;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.side-down-footer{
+    background-color: pink;
+    padding: 5px;
+    border: 3px dashed;
+}
+
+
+/* utility */
+    
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+}
+
+
+.side-40{
+    background-color: pink;
+    min-width: 40%;
+}
+
+.side-60{
+    background-color: #1d90ff;
+    min-width: 60%;
+}
+.side{
+    min-height: 500px;
+    background-color: #21b2aa;
+    width: calc((100% / 6) * 1);
+    border: 3px dashed white;
+}
+
+.double-side{
+    min-height: 500px;
+    background-color: pink;
+    width: calc((100% / 6) * 2);
+    border: 3px dashed white;
+}
+.border{
+    margin-top: 10px;
+    border: 1px solid white;
+    margin-top: 20px;
+}
