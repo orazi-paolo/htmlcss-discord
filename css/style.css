@@ -54,7 +54,7 @@ h5{
     background-color: white;
     padding: 10px;
     color: black;
-    border-radius: 40%;
+    border-radius: 15px;
 }
 .div-header{
     min-height: 200px;
@@ -151,9 +151,9 @@ h5{
     padding-top: 5px;
 }
 .top-footer{
-    min-height: 200px;
+    min-height: 150px;
     flex-wrap: nowrap;
-    padding: 60px;
+    padding-top: 60px;
 }
 
 .img-italia{
@@ -166,8 +166,6 @@ h5{
 
 .down-footer{
     min-height: 100px;
-    border: 3px dashed;
-    background-color: aquamarine;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -175,9 +173,7 @@ h5{
 }
 
 .side-down-footer{
-    background-color: pink;
-    padding: 5px;
-    border: 3px dashed;
+    padding: 10px;
 }
 
 
